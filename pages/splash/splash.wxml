@@ -1,0 +1,10 @@
+<view class="container">
+
+左右滑动 切换图片视图显示
+最后一张用于进入进入
+
+[看起来splash要废弃掉]
+<button bindtap="nextStepHandler">进入系统</button>
+
+
+</view>

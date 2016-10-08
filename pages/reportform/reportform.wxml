@@ -1,0 +1,43 @@
+<!--
+<view class="hx-tbar">
+    <view class="hx-tbar_title"><text>支出</text> </view>
+    <view class="hx-tbar_cusor"></view>
+</view>
+<view class="hx-tbar-unfocus">
+    <view class="hx-tbar_title"><text>收入</text> </view>
+    <view class="hx-tbar_cusor"></view>
+</view>
+-->
+<view class="container" style="background-color:#f5f5f5;">
+    <view style="width:100%;position:fixed;display:flex;border-top:1px solid #e5e5e5;background:white;">
+        <block wx:for="{{topbars}}">
+        <view wx:if="{{index == curTbarIndex}}" class="hx-tbar" data-index="{{index}}" bindtap="switchTopbar">
+                <view class="hx-tbar_title"><text>{{item.title}}</text></view>
+                <view class="hx-tbar_cusor"></view>
+            </view>
+
+            <view wx:else class="hx-tbar-unfocus" data-index="{{index}}" bindtap="switchTopbar">
+                <view class="hx-tbar_title"><text>{{item.title}}</text></view>
+                <view class="hx-tbar_cusor"></view>
+            </view>
+        </block>
+    </view>
+
+    
+    
+    <view style="display:{{curPages.out}};padding-top:76rpx;height:100%;">
+
+       <view style="text-align:center;position:fixed;top:50%;left:50%;width:50%;height:50%;-webkit-transform:translateX(-50%) translateY(-50%);">
+            <image src="../../res/image/bg_blank.png" style="width:260rpx;height:260rpx;" mode="aspectFit"></image>
+            <view style="margin-top:30rpx;"><text style="color:#acacac;font-size:16px;">报表空空如也</text></view>
+        </view>
+
+    </view>
+
+    <view style="display:{{curPages.in}};padding-top:76rpx;">
+         <view style="text-align:center;position:fixed;top:50%;left:50%;width:50%;height:50%;-webkit-transform:translateX(-50%) translateY(-50%);">
+            <image src="../../res/image/bg_blank.png" style="width:260rpx;height:260rpx;" mode="aspectFit"></image>
+            <view style="margin-top:30rpx;"><text style="color:#acacac;font-size:16px;">报表空空如也</text></view>
+        </view>
+    </view>
+</view>

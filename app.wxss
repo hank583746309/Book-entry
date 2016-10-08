@@ -1,0 +1,32 @@
+/**app.wxss   align-items: center;  justify-content: space-between;  box-sizing: border-box;**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+} 
+
+
+
+.hx-ul-group{
+   border-top: 1px solid #f7f7f7;
+   border-bottom: 1px solid #f7f7f7;
+   background-color: #fff;
+}
+
+.hx-ul-group .hx-li{
+    border-bottom: 1px solid #f7f7f7;
+}
+.hx-ul-group .hx-li:active{
+    background-color: #f7f7f7;
+}
+.hx-ul-group .hx-li:last-child{
+    border-bottom: 0px;
+}
+.hx-p{
+   font-size: 26rpx;
+}
+.hx-line-v{
+    border-left: 1px solid white;
+    font-size: 0;
+}

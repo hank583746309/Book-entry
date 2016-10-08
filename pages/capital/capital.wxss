@@ -1,0 +1,6 @@
+.add-account{
+   border:1px dotted #e5e5e5;padding:16rpx 0;margin: 8rpx 16rpx 0 16rpx;text-align:center;
+}
+.add-account:active{
+   background-color: #f7f7f7;
+}

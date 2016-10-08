@@ -1,0 +1,35 @@
+<view class="container">
+
+<view style="width:100%;position:fixed;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;background:white;">
+    <view style="display:flex;padding:20rpx 0;">
+            <view style="flex:1;padding:16rpx;">
+                <text>结余:</text><text>0.00</text>
+                <image style="width:36rpx;height:36rpx;float:right;" src="../../res/image/eye_close.png"> </image>
+            </view>
+            <text class="hx-line-v" style="border-left:1px solid #e5e5e5;"></text>
+            <view style="float:right;padding:16rpx;color:#f3456a">
+	            <image style="width:36rpx;height:36rpx;" src="../../res/image/refresh.png"> </image>
+                <text  style="margin-left:20rpx">转账</text>
+            </view>
+    </view>
+</view>
+
+<view style="padding-top:128rpx;max-height:100%;color:white;overflow:auto;">
+    <view wx:for="{{capitalTypes}}" style="padding:8rpx 16rpx;">
+        <view style="padding:50rpx 8rpx;background-color:{{item.backgroundColor}};border:1px solid white;border-radius:10rpx;">
+            <view style="float:left;">
+                <image style="width:40rpx;height:40rpx;margin:0 16rpx;" src="{{item.icon}}"> </image>
+            </view>
+            <text>{{item.typeName}}</text>
+            <text style="float:right; margin-right:8px;">{{item.money}}</text>
+        </view>
+    </view>
+
+    <view class="add-account">
+        <text style="color:#e7e7e7;padding-right:16rpx;">+</text><text style="color:#0a0a0a">添加资金账户</text>
+    </view>
+
+</view>
+
+
+</view>

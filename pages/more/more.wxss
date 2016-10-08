@@ -1,0 +1,31 @@
+.c-hx-li{
+    padding:30rpx 24rpx;
+}
+.c-hx-li text{
+    font-size: 15px;
+    color:#373737;
+}
+
+.c-hx-li-left{
+    float:left;
+}
+.c-hx-li-right{
+    float:right;
+}
+.c-hx-li-l-icon{
+   width: 40rpx; 
+   height: 40rpx; 
+   margin-right:20rpx;
+}
+.c-hx-li-r-icon{
+   width: 36rpx; 
+   height: 36rpx;
+}
+.c-hx-button{
+    padding:30rpx 0;
+    line-height:36rpx;
+    vertical-align: baseline;
+}
+.c-hx-button:active{
+   background-color: #E64340;
+}

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index" 
+    ,"pages/reportform/reportform"
+    ,"pages/capital/capital"
+    ,"pages/more/more"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有鱼记账",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a7a7a7",
+    "selectedColor": "#f44468",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "res/image/accounting.png",
+      "selectedIconPath": "res/image/accounting_select.png",
+      "text": "记账"
+    }, {
+      "pagePath": "pages/reportform/reportform",
+      "iconPath": "res/image/reportform.png",
+      "selectedIconPath": "res/image/reportform_select.png",
+      "text": "报表"
+    }, {
+      "pagePath": "pages/capital/capital",
+      "iconPath": "res/image/capital.png",
+      "selectedIconPath": "res/image/capital_select.png",
+      "text": "资金"
+    }, {
+      "pagePath": "pages/more/more",
+      "iconPath": "res/image/more.png",
+      "selectedIconPath": "res/image/more_select.png",
+      "text": "更多"
+    }]
+  }
+}

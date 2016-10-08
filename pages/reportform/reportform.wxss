@@ -1,0 +1,19 @@
+.hx-tbar{
+    flex:1;border-bottom:1px solid #ed4367;color:#ed4367;text-align:center;
+}
+.hx-tbar .hx-tbar_title{
+    padding:12rpx 0;
+}
+.hx-tbar .hx-tbar_cusor{
+    height:4rpx;background:#ed4367;
+}
+
+.hx-tbar-unfocus{
+    flex:1;border-bottom:1px solid #e5e5e5;text-align:center;
+}
+.hx-tbar-unfocus .hx-tbar_title{
+    padding:12rpx 0;
+}
+.hx-tbar-unfocus .hx-tbar_cusor{
+    height:2px;
+}
